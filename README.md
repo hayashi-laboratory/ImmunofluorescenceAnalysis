@@ -28,5 +28,7 @@ Here the process;
 - *ProcessFolderNeunPsdAnalysis_.ijm*
   
   **First, run the macro then choose a directory that has images you want to analyze.**  
-  This macro can set a ROI.
+  This macro can set a ROI.  
+  
+  This version accepts **RGB stack image** only.
 
