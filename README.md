@@ -8,10 +8,16 @@ Fiji macro for immunofluorescence analysis
   
   **Open your image and ready to run.**  
   Images should be cropped before analysis.
-  
-  An example image.  
+ 
+  An example image of Amyloid-beta staining.  
   ![Slide102_6_Abeta_x10_whole_LSM czi - Slide102_6_Abeta_x10_whole_LSM czi #1 - T=0 C=0_11-3](https://user-images.githubusercontent.com/59642394/217436089-caade094-9235-400f-a0b6-5a9bdd92cc35.jpg)
-
+  
+  1. Enter the region name you want to analyze in a dialog box.
+  
+  1. Set ROI you want to analyze, then clic [OK] button.
+  
+  1. Automatically save the result of `analyze particle` function.
+  
 
 - *ProcessFolderNeunPsdAnalysis_.ijm*
   
