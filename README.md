@@ -46,6 +46,11 @@ Here the process;
   **First, run the macro then choose a directory that has images you want to analyze.**  
   High magnification or cropped images are preferable. 
   
+  Here is an example image.
+  ![Slide197_38_7L5_100umscalebar-1](https://user-images.githubusercontent.com/59642394/217463109-4396cf21-1a27-4935-9007-5e223a02d196.jpg)  
+  
+  Green = Iba1  
+  Magenta = Amyloid-beta (Methoxy-X04)
   
   
 
