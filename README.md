@@ -4,7 +4,7 @@ Fiji macro for immunofluorescence analysis
 ## Run the macro here in Fiji software
 > https://imagej.net/software/fiji/downloads
 
-- *AnalyzeParticleAbeta.ijm*  
+### *AnalyzeParticleAbeta.ijm*  
   There are two ways of analyzing image(s).
   
   **1.Open your image and run the macro.**  
@@ -24,8 +24,8 @@ Here the process;
 1. Ready to automatically save the result of `analyze particle` function.  
    The result will be stored in the same hierarchical directory as the analyzed image.
   
-
-- *ProcessFolderNeunPsdAnalysis_.ijm*
+---
+### *ProcessFolderNeunPsdAnalysis.ijm*
   
   **First, run the macro then choose a directory that has images you want to analyze.**  
   This macro can set a ROI.  
@@ -37,7 +37,14 @@ Here the process;
   - *PSD95* channel3 (red)  
   - channel2 (blue) is not used  
   
-  If your images are not in this order, change the channel numbers in `line 114-116` of the macro to match your images.
+  If your images are not in this order, change the channel numbers in `line 114-116` of the macro to match your images.  
+  
+  
+--- 
+### *ProcessFolderAbetaMicrogliaOverlapAnalysis.ijm*  
+
+  **First, run the macro then choose a directory that has images you want to analyze.**  
+  High magnification or cropped images are preferable. 
   
   
   
