@@ -4,7 +4,7 @@ Fiji macro for immunofluorescence analysis
 ## Run the macro here in Fiji software
 > https://imagej.net/software/fiji/downloads
 
-- *AnalyzeParticleAbeta.ijm*
+- *AnalyzeParticleAbeta.ijm*  
   There are two ways of analyzing image(s).
   
   **1.Open your image and run the macro.**  
