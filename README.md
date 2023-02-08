@@ -30,5 +30,15 @@ Here the process;
   **First, run the macro then choose a directory that has images you want to analyze.**  
   This macro can set a ROI.  
   
-  This version accepts **RGB stack image** only.
+  This version accepts **RGB stack image** only.  
+  The stack level should be like the following;  
+  
+  - *NeuN* channel1 (green)  
+  - *PSD95* channel3 (red)  
+  - channel2 (blue) is not used  
+  
+  If your images are not in this order, change the channel numbers in `line 114-116` of the macro to match your images.
+  
+  
+  
 
