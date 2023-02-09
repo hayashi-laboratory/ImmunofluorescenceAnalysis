@@ -50,7 +50,10 @@ Here the process;
   ![Slide197_38_7L5_100umscalebar-1](https://user-images.githubusercontent.com/59642394/217463109-4396cf21-1a27-4935-9007-5e223a02d196.jpg)  
   
   Green = Iba1  
-  Magenta = Amyloid-beta (Methoxy-X04)
+  Magenta = Amyloid-beta (Methoxy-X04)  
+  
+  Measurement results of area%, size and so on, of amyloid-beta, microglia will be automatically saved at the present path (the same hierarchical directory as the image).  
+  Calculates ratio of double-positive area of amyloid-beata and microglia to microglia.  
   
   
 
