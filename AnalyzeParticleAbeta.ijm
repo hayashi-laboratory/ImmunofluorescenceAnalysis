@@ -15,7 +15,15 @@ if (idir == ""){
 			if(endsWith(filelist[i], "tif")){
 				imagelist = Array.concat(imagelist, filelist[i]);
 				open(filelist[i]);
+					analysis_bool = getBoolean("Do you want to analyze this image? Y/N");
+	
+				if(analysis_bool == 0){
+					showMessage("Skipped the image.");
+					close();
+					continue;
+				}else{
 				analyzeparticlewithroi(1);
+				}
 				close(filelist[i]); 
 				print("clear the roi manager");
 				roiManager("deselect");
@@ -26,6 +34,7 @@ if (idir == ""){
 				print("close the summary window");
 				
 				close("Summary");
+			
 			}
 
 		}
@@ -72,7 +81,7 @@ function analyzeparticlewithroi(batchflag){
 	
 	roiManager("Select", 0);
 
-	getStatistics(area,mean, min, max, std);
+	getStatistics(area,mean, min, max, std);   // ROIのAreaを算出
 	run("Measure");	
 	print("mean "+mean+ "area "+ area+ "std "+std);
 	//result = newArray(mean, area, std);
@@ -97,7 +106,7 @@ function analyzeparticlewithroi(batchflag){
 	
 	//result = Array.concat(result, newArray(nResults));
 	//Array.show(result)
-	measuredfilename_analyze_particle = name + "_" + reg + "_Analyzed"+ ".csv";
+	measuredfilename_analyze_particle = name + "_" + reg + "_Analyzed"+ ".csv";　　　// Analyzed particleされた後の、ポジティブな面積をTotal Areaとして算出
 	saveAs("Measurements", dir + measuredfilename_analyze_particle);
 	print(dir + name);
 
